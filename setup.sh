@@ -28,7 +28,7 @@ build_docker() {
 modify_app() {
     echo "Modifying the application..."
     sleep 3
-    export PORT=5001
+    export PORT=1986
     echo "Modifications done. Port is now set to $PORT"
 }
 

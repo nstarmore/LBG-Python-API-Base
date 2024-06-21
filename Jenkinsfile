@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     // Build the Docker image
-                    sh "docker build -t ${GCR_URL}/${IMAGE_NAME}:${BUILD_NUMBER}"
+                    sh "docker build -t ${GCR_URL}/${IMAGE_NAME}:${BUILD_NUMBER} ."
                 }
             }
         }

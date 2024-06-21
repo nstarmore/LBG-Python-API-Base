@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         GCR_CREDENTIALS_ID = 'gcr_jenkins_key'
-        IMAGE_NAME = 'nile/test-build-1'
+        IMAGE_NAME = 'niles/test-build-1'
         GCR_URL = 'gcr.io/lbg-mea-build-c19'
     }
     stages {
